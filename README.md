@@ -25,18 +25,18 @@ Theme colors are defined in the `beamercolorthemeSimpleColors.sty` file as follo
 % set current theme color
 \colorlet{CurrentTheme}{DarkBlue}
 ``` 
-In order to chaneg the theme color alter the `CurrentTheme` varible to use other colors.
+In order to change the theme color alter the `CurrentTheme` varible to use other colors.
 
 The following table provides a comparison of the different color themes available in the `SimpleColors` Beamer theme. Each theme has 13 preview images that demonstrate its appearance.
 
-| Color Theme   | Preview Image |
-|--------------|--------------|
-| DarkBlue     | <img src="preview/DarkBlue/output-01.jpg" width="300"/> |
-| DarkGreen    | <img src="preview/DarkGreen/output-01.jpg" width="300"/> |
-| DarkPurple   | <img src="preview/DarkPurple/output-01.jpg" width="300"/> |
-| DarkRed      | <img src="preview/DarkRed/output-01.jpg" width="300"/> |
-| Leather      | <img src="preview/Leather/output-01.jpg" width="300"/> |
-| Orange       | <img src="preview/Orange/output-01.jpg" width="300"/> |
+| Color Theme   | Preview Title |  Preview Blocks |
+|--------------|--------------|--------------|
+| DarkBlue     | <img src="preview/DarkBlue/output-01.jpg" width="300"/> |  <img src="preview/DarkBlue/output-05.jpg" width="300"/> |
+| DarkGreen    | <img src="preview/DarkGreen/output-01.jpg" width="300"/> |<img src="preview/DarkGreen/output-05.jpg" width="300"/> |
+| DarkPurple   | <img src="preview/DarkPurple/output-01.jpg" width="300"/> |<img src="preview/DarkPurple/output-05.jpg" width="300"/> |
+| DarkRed      | <img src="preview/DarkRed/output-01.jpg" width="300"/> |<img src="preview/DarkRed/output-05.jpg" width="300"/> |
+| Leather      | <img src="preview/Leather/output-01.jpg" width="300"/> |<img src="preview/Leather/output-05.jpg" width="300"/> |
+| Orange       | <img src="preview/Orange/output-01.jpg" width="300"/> |<img src="preview/Orange/output-05.jpg" width="300"/> |
 
 
 For a full preview of each theme, check the corresponding folder under `preview/`.
