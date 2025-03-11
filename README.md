@@ -11,6 +11,22 @@ SimpleColors is a vibrant and straightforward LaTeX Beamer theme designed for si
 
 ## Color Theme Previews
 
+Theme colors are defined in the `beamercolorthemeSimpleColors.sty` file as follows:
+```latex
+% themes colors
+\definecolor{DarkBlue}{rgb}{0.05, 0.15, 0.35}
+\definecolor{DarkGreen}{rgb}{0.1, 0.35, 0.1}
+\definecolor{DarkPurple}{rgb}{0.3, 0.0, 0.50}
+\definecolor{DarkRed}{rgb}{0.7, 0.0, 0.0}
+\definecolor{Orange}{rgb}{1.0, 0.5, 0.0} 
+\definecolor{Leather}{rgb}{0.35, 0.25, 0.1}
+
+
+% set current theme color
+\colorlet{CurrentTheme}{DarkBlue}
+``` 
+In order to chaneg the theme color alter the `CurrentTheme` varible to use other colors.
+
 The following table provides a comparison of the different color themes available in the `SimpleColors` Beamer theme. Each theme has 13 preview images that demonstrate its appearance.
 
 | Color Theme   | Preview Image |
