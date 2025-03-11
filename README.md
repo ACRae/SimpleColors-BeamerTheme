@@ -25,7 +25,10 @@ Theme colors are defined in the `beamercolorthemeSimpleColors.sty` file as follo
 % set current theme color
 \colorlet{CurrentTheme}{DarkBlue}
 ``` 
-In order to change the theme color alter the `CurrentTheme` varible to use other colors.
+
+> [!IMPORTANT]  
+> In order to change the theme color alter the `CurrentTheme`.
+
 
 The following table provides a comparison of the different color themes available in the `SimpleColors` Beamer theme. Each theme has 13 preview images that demonstrate its appearance.
 
@@ -40,6 +43,28 @@ The following table provides a comparison of the different color themes availabl
 
 
 For a full preview of each theme, check the corresponding folder under `preview/`.
+
+
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/ACRae/SimpleColors-BeamerTheme.git
+   ```
+
+2. **Add to Your LaTeX Directory**:
+
+    Place the `.sty` files in your LaTeX project's directory or in a directory that's part of your TeX distribution's search path.
+
+3. **Incorporate with existing latex file**:
+    
+    Incorporate the theme into your Beamer presentation by adding the following lines to your .tex file's preamble:
+    ```latex
+    \documentclass{beamer}
+    \usetheme{SimpleColors}
+    ```
+
 
 ## License
 
