@@ -13,13 +13,13 @@ color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
   \leftskip=-0.33em % hard fix for misaligned footer
   \hbox{
     % Title on the left with left alignment
-    \begin{beamercolorbox}[wd=0.50\paperwidth,ht=2.25ex,dp=1ex,left]{footlinecolor}
-      \hspace*{0.5em}
+    \begin{beamercolorbox}[wd=0.50\paperwidth,ht=2.25ex,dp=1.1ex,left]{header}
+      \hspace*{0.17em}
       \usebeamerfont{footline}%
       \insertshorttitle
     \end{beamercolorbox}%
     % Author in the center with center alignment
-    \begin{beamercolorbox}[wd=0.5\paperwidth,ht=2.25ex,dp=1ex]{footlinecolor}
+    \begin{beamercolorbox}[wd=0.5\paperwidth,ht=2.25ex,dp=1.1ex]{footer}
       \hspace*{0.5em}
       \usebeamerfont{footline}%
       \insertshortauthor
@@ -28,7 +28,7 @@ color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
       \hspace*{0.5em}
     \end{beamercolorbox}%
   }
-  \vskip0pt%
+  \vskip-0.1em% hard fix for misaligned footer
 }
 
 
