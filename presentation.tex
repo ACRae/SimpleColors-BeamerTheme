@@ -6,13 +6,17 @@
 
 \usetheme{SimpleColors}
 
-
 \usepackage{hyperref}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-
-
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{multirow}
 \graphicspath{{./figures/}} % Figures Path
+\bibliographystyle{unsrt}
+\newcommand{\vtab}{\vspace{0.3cm}} % Define a new command for vertical spacing
 
 
 
@@ -161,7 +165,6 @@
 \begin{frame}{References}
     \footnotesize
     \bibliography{reference.bib}
-    \bibliographystyle{apalike}
 \end{frame}
 
 
